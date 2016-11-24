@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
+
+/**********************************************
+*
+* 1. Media Queries
+*
+**********************************************/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	html {
+		margin-left: 1px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.sky-carousel .sc-overlay {
+		width: 125px !important;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.sky-carousel .sc-overlay {
+		width: 70px !important;
+	}
+}
+
+
+/**********************************************
+*
+* 2. Container Styles
+*
+**********************************************/
+
+.js .sky-carousel {
+	visibility: hidden;
+}
+
+.clients-gallery .sky-carousel {
+	width: 100%;
+	height: 600px;
+	position: relative;
+	background: #f7f7f7;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.clients-gallery .sky-carousel .sky-carousel-container {
+	position: relative;
+	list-style-type: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+
+/**********************************************
+*
+* 3. Carousel Item Styles
+*
+**********************************************/
+
+.clients-gallery .sky-carousel .sky-carousel-container li {
+	position: absolute;
+	border: 0;
+}
+
+.clients-gallery .sky-carousel .sky-carousel-container li img {
+	display: block;
+	max-width: none !important;
+	border: 0;
+}
+
+.clients-gallery .sky-carousel .sky-carousel-container li a img {
+	border: none;
+}
+
+.clients-gallery .sky-carousel .sky-carousel-container .sc-content {
+	width: 100%;
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	z-index: 4999;
+	padding: 0;
+}
+
+.clients-gallery .sky-carousel .sky-carousel-container .sc-content h2 {
+	position: relative;
+	left: -50%;
+	color: #0a4595;
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+	text-transform: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+
+/**********************************************
+*
+* 4. Current Content Styles
+*
+**********************************************/
+
+.clients-gallery .sky-carousel .sc-content-wrapper {
+	position: absolute;
+	display: none;
+	width: 100%;
+	top: 85%;
+	left: 50%;
+	z-index: 4999;
+}
+
+.clients-gallery .sky-carousel .sc-content-container {
+	position: relative;
+	left: -50%;
+}
+
+.clients-gallery .sky-carousel .sc-content-wrapper h2 {
+	color: #0a4595;
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+	text-transform: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+}
+
+.clients-gallery .sky-carousel .sc-content-wrapper p {
+	color: #777;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+.clients-gallery .sky-carousel .sc-content-wrapper a {
+	text-decoration: none;
+	color: #444;
+	border-bottom: 1px dotted #444;
+}
+
+
+/**********************************************
+*
+* 5. Gradient Overlay Styles
+*
+**********************************************/
+
+.clients-gallery .sky-carousel .sc-overlay {
+	position: absolute;
+	height: 100%;
+	z-index: 4998;
+	pointer-events: none;
+	top: 0;
+}
+
+.clients-gallery .sky-carousel .sc-overlay-left {
+	left: -0.1px;
+}
+
+.clients-gallery .sky-carousel .sc-overlay-right {
+	right: -0.1px;
+}
+
+
+/**********************************************
+*
+* 6. Navigation Styles
+*
+**********************************************/
+
+.clients-gallery .sky-carousel .sc-nav-button {
+	position: absolute;
+	top: 45%;
+	z-index: 5000;
+	width: 50px;
+	height: 50px;
+	margin-top: -20px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+}
+
+.clients-gallery .sky-carousel .sc-nav-button.sc-next {
+	background: url("../img/icons/next.png") no-repeat 20px 12px;
+	background-color: rgba(10, 69, 149, .5);
+	background-size: 13px;
+	border-radius: 50%;
+	right: 15px;
+}
+
+.clients-gallery .sky-carousel .sc-nav-button.sc-prev {
+	background: url("../img/icons/prev.png") no-repeat 17px 12px;
+	background-color: rgba(10, 69, 149, .5);
+	background-size: 13px;
+	border-radius: 50%;
+	left: 15px;
+}
+
+.clients-gallery .sky-carousel .sc-nav-button.sc-prev:hover,
+.clients-gallery .sky-carousel .sc-nav-button.sc-next:hover {
+	background-color: rgb(10, 69, 149);
+}
+
+
+/**********************************************
+*
+* 7. Preloader Styles
+*
+**********************************************/
+
+.clients-gallery .sky-carousel .sc-preloader {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 24px;
+	height: 24px;
+	margin-top: -22px;
+	margin-left: -22px;
+	background: #f5f5f5 url("../images/sc-graphics/preloader.gif") no-repeat 50% 50%;
+	padding: 10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+
+/**********************************************
+*
+* 8. Other Styles
+*
+**********************************************/
+
+.sc-no-select {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}

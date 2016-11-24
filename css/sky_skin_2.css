@@ -1,0 +1,270 @@
+/**
+ *
+ * Sky jQuery Touch Carousel
+ * URL: http://www.skyplugins.com
+ * Version: 1.0.2
+ * Author: Sky Plugins
+ * Author URL: http://www.skyplugins.com
+ *
+ */
+
+
+/**
+*	Table of Contents
+*	
+*	1. Media Queries
+*	2. Container Styles
+*	3. Carousel Item Styles
+*	4. Current Content Styles
+*	5. Gradient Overlay Styles
+*	6. Navigation Styles
+*	7. Preloader Styles
+*	8. Other Styles
+*/
+
+
+/**********************************************
+*
+* 1. Media Queries
+*
+**********************************************/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	html {
+		margin-left: 1px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.sky-carousel .sc-overlay {
+		width: 88px !important;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.sky-carousel .sc-overlay {
+		width: 15px !important;
+	}
+	.sky-carousel .sc-nav-button.sc-next {
+		right: 1px !important;
+	}
+	.sky-carousel .sc-nav-button.sc-prev {
+		left: -2px !important;
+	}
+}
+
+
+/**********************************************
+*
+* 2. Container Styles
+*
+**********************************************/
+
+.js .sky-carousel {
+	visibility: hidden;
+}
+
+.news .sky-carousel {
+	width: 100%;
+	height: 450px;
+	position: relative;
+	background: transparent;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.news .sky-carousel .sky-carousel-container {
+	position: relative;
+	list-style-type: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+
+/**********************************************
+*
+* 3. Carousel Item Styles
+*
+**********************************************/
+
+.news .sky-carousel .sky-carousel-container li {
+	position: absolute;
+	border: 0;
+}
+
+.news .sky-carousel .sky-carousel-container li img {
+	display: block;
+	max-width: none !important;
+	background-color: #fff;
+	border: 1px solid #c9c9c9;
+	padding: 9px;
+	box-shadow: 0px 2px 1px rgba(44, 44, 44, 0.07);
+	-webkit-box-shadow: 0px 2px 1px rgba(44, 44, 44, 0.07);
+	-moz-box-shadow: 0px 2px 1px rgba(44, 44, 44, 0.07);
+}
+
+.news .sky-carousel .sky-carousel-container .sc-content {
+	display: none;
+}
+
+
+/**********************************************
+*
+* 4. Current Content Styles
+*
+**********************************************/
+
+.news .sky-carousel .sc-content-wrapper {
+	position: absolute;
+	text-align: center;
+	top: 7%;
+	left: 50%;
+	z-index: 4999;
+}
+
+.news .sky-carousel .sc-content-container {
+	position: relative;
+	left: -50%;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	padding: 0;
+}
+
+.news .sky-carousel .sc-content-wrapper .sc-content-container .sc-content {
+	width: 400px;
+}
+
+.news .sky-carousel .sc-content-wrapper h2 {
+	color: #0a4595;
+	font-family: 'RobotoCondensedRegular';
+	font-size: 22px;
+	margin: 0 0 18px 0;
+	padding: 0;
+}
+
+.news .sky-carousel .sc-content-wrapper p {
+	color: #2d3643;
+	font-size: 15px;
+	margin: 0;
+	padding: 0 20px 10px 20px;
+	text-align: center;
+}
+
+.news .sky-carousel a {
+	text-decoration: none;
+	color: #05396b;
+	font-size: 14px;
+	text-transform: uppercase;
+	display: block;
+	font-family: RobotoCondensedRegular;
+}
+
+.news .sc-content a {
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+
+/**********************************************
+*
+* 5. Gradient Overlay Styles
+*
+**********************************************/
+
+.news .sky-carousel .sc-overlay {
+	position: absolute;
+	height: 100%;
+	width: 0 !important;
+	z-index: 4998;
+	pointer-events: none;
+	top: 0;
+}
+
+.news .sky-carousel .sc-overlay-left {
+	left: -0.1px;
+	width: 0;
+}
+
+.news .sky-carousel .sc-overlay-right {
+	right: -0.1px;
+	width: 0;
+}
+
+
+/**********************************************
+*
+* 6. Navigation Styles
+*
+**********************************************/
+
+.news .sky-carousel .sc-nav-button {
+	position: absolute;
+	top: 65%;
+	z-index: 5000;
+	width: 50px;
+	height: 50px;
+	margin-top: -20px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+}
+
+.news .sky-carousel .sc-nav-button.sc-next {
+	background: url("../img/icons/next.png") no-repeat 20px 12px;
+	background-color: rgba(10, 69, 149, .5);
+	background-size: 13px;
+	border-radius: 50%;
+	right: 15px;
+}
+
+.news .sky-carousel .sc-nav-button.sc-prev {
+	background: url("../img/icons/prev.png") no-repeat 17px 12px;
+	background-color: rgba(10, 69, 149, .5);
+	background-size: 13px;
+	border-radius: 50%;
+	left: 15px;
+}
+
+.news .sky-carousel .sc-nav-button.sc-prev:hover,
+.news .sky-carousel .sc-nav-button.sc-next:hover {
+	background-color: rgb(10, 69, 149);
+}
+
+
+/**********************************************
+*
+* 7. Preloader Styles
+*
+**********************************************/
+
+.news .sky-carousel .sc-preloader {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 24px;
+	height: 24px;
+	margin-top: -22px;
+	margin-left: -22px;
+	background: #fff url("../images/sc-graphics/preloader.gif") no-repeat 50% 50%;
+	padding: 10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+
+/**********************************************
+*
+* 8. Other Styles
+*
+**********************************************/
+
+.sc-no-select {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
