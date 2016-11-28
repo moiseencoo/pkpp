@@ -96,7 +96,7 @@ $(function () {
 		, reflectionAlpha: 0.1
 		, reflectionVisible: true
 		, reflectionSize: 100
-		, selectByClick: false
+		, selectByClick: true
 		, navigationButtonsVisible: true
 		, enableMouseWheel: false
 	});

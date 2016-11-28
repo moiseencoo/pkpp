@@ -62,13 +62,14 @@ header .col-md-6 {
 
 .header-through-line-right {
 	right: 0;
-	width: 300px;
+	width: 170px;
 }
 
 header .header-main-txt {
 	font-size: 36px;
 	font-family: BigNoodle;
-	text-align: center;
+	text-align: left;
+	margin-left: 20px;
 	text-transform: uppercase;
 	padding: 25px;
 }
@@ -77,9 +78,29 @@ header .header-logo {
 	padding: 15px;
 }
 
+.header-contact {
+	position: relative;
+}
+
+.header-contact .person-cabinet {
+	position: absolute;
+	top: 35px;
+	left: -250px;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: "Open Sans";
+}
+
+.header-contact .person-cabinet img {
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
 .contact-phone {
 	font-family: RobotoCondensedRegular;
-	font-size: 25px;
+	font-size: 28px;
 	display: inline;
 	padding: 25px 0;
 	float: left;
@@ -143,7 +164,7 @@ header .langs > a.active {
 }
 
 #navbar {
-	width: 730px;
+	width: 800px;
 	margin: -1px auto 0 auto;
 }
 
@@ -155,6 +176,10 @@ header .langs > a.active {
 	background: #fff;
 }
 
+.navbar-nav {
+	margin-bottom: -1px;
+}
+
 .bmargin {
 	position: absolute;
 	top: 111px;
@@ -163,7 +188,7 @@ header .langs > a.active {
 }
 
 .nav>li {
-	position: initial !important;
+	position: static;
 }
 
 .navbar-nav > li > a {
@@ -175,6 +200,8 @@ header .langs > a.active {
 	padding: 15px 20px;
 }
 
+.navbar-nav > li.active,
+.navbar-nav > li.active > a,
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus,
 .nav .open>a,
@@ -231,19 +258,36 @@ header .langs > a.active {
 .dropdown-menu li {
 	display: table-cell;
 	padding: 15px 0 0 0;
+	position: relative;
 }
 
-.dropdown-menu .container:first-child li:first-child {
+
+/*.dropdown-menu .container:first-child li:first-child {
 	display: none;
-}
+}*/
 
 .dropdown-menu li>a {
 	text-decoration: none;
 	padding: 0 10px;
 }
 
+.dropdown-menu li>a.pdf-download {
+	position: absolute;
+	top: 184px;
+	right: 15px;
+	color: #2d3643;
+	font-size: 15px;
+	font-family: 'RobotoCondensed-Bold';
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
 .dropdown-menu li>a>img {
 	width: 95%;
+}
+
+.dropdown-menu li>a.pdf-download >img {
+	width: 40px;
 }
 
 .dropdown-menu li>a> .dropdown-p-container {
@@ -293,20 +337,20 @@ header .langs > a.active {
 }
 
 .carousel-indicators li {
-	width: 15px;
-	height: 15px;
+	width: 17px;
+	height: 17px;
 	margin-right: 10px;
-	border: 3px solid #fff;
-	background: #fff;
+	border: 3px solid #0193e3;
+	background: none;
 	margin-left: 10px;
 	margin-right: 10px;
 }
 
 .carousel-indicators .active {
-	width: 17px;
-	height: 17px;
-	background: none;
-	border: 3px solid #0193e3;
+	width: 16px;
+	height: 16px;
+	border: 3px solid #fff;
+	background: #fff;
 }
 
 .carousel-indicators li {}
@@ -1288,8 +1332,8 @@ ul.directions li img {
 ul.directions li .hidden-directions p {
 	text-transform: none;
 	font-size: 15px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
+	font-family: 'RobotoCondensedRegular', sans-serif;
+	font-weight: 300;
 	color: #000;
 }
 
@@ -1965,6 +2009,65 @@ compensation {
 
 
 /****************************************************
+**************Tezaurus BEGINS ********************
+****************************************************/
+
+.tezaurus .tez-block {
+	min-height: 305px;
+	background: #f7f7f7;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.tezaurus .tez-block h2 {
+	color: #0a4595;
+	font-size: 23px;
+	text-transform: uppercase;
+	padding-left: 20px;
+}
+
+.tez-block-text {
+	background: #fff;
+	padding: 20px;
+	margin: 15px;
+	width: 54%;
+	float: left;
+}
+
+.tez-block-text p {
+	padding-left: 20px;
+}
+
+.tez-block-text a {
+	font-size: 14px;
+	color: #0a4595;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-left: 20px;
+}
+
+.tez-border-corner {
+	border-left: 3px solid #8ccef1;
+	position: relative;
+}
+
+.tez-border-corner:before {
+	position: absolute;
+	width: 57px;
+	height: 78px;
+	content: '';
+	left: -6px;
+	top: -26px;
+	background-image: url(../img/icons/text-corner.png);
+	background-repeat: no-repeat;
+}
+
+.tezaurus .tez-block > img {
+	float: left;
+}
+
+
+/****************************************************
 **************FOOTER BEGINS ********************
 ****************************************************/
 
@@ -2031,10 +2134,6 @@ footer {
 	color: #f2eeee;
 }
 
-#ftr-1 li:first-child {
-	display: none;
-}
-
 .copyrights {
 	background: #1a5a92;
 	min-height: 40px;
@@ -2044,6 +2143,11 @@ footer {
 	font-size: 12px;
 	color: #f2eeee;
 	padding: 10px 0 5px 0;
+}
+
+.ftr-copyrights a {
+	color: #f2eeee;
+	text-decoration: none;
 }
 
 .author {

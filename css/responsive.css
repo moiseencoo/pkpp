@@ -172,11 +172,16 @@
  		display: none;
  	}
  	.contact-phone {
- 		text-align: center;
- 		padding-bottom: 10px;
+ 		text-align: right;
+ 		padding-bottom: 7px;
+ 		padding-right: 80px;
  		display: inline-block;
  		width: 100%;
  		margin: 10px auto 10px;
+ 	}
+ 	.header-contact .person-cabinet {
+ 		left: 62px;
+ 		top: 20px;
  	}
  	header .col-md-3 {
  		width: 30%;
@@ -426,9 +431,6 @@
  	#ftr-4 .footer-hdr a {
  		color: #f2eeee;
  	}
- 	#ftr-1 li:first-child {
- 		display: block;
- 	}
  	.open-ftr {
  		display: block;
  		opacity: 1;
@@ -619,6 +621,20 @@
  	}
  	ul.directions li:hover .hidden-directions {
  		display: none;
+ 	}
+ 	.tez-block-text {
+ 		width: 63px;
+ 		margin: 15px;
+ 	}
+ 	.dropdown-menu li>a {
+ 		display: inline-block;
+ 	}
+ 	.dropdown-menu li>a.pdf-download {
+ 		position: relative;
+ 		top: 0;
+ 		right: 0;
+ 		margin-left: -5px;
+ 		display: inline-block;
  	}
  }
  /* Small Devices, Tablets */
@@ -948,6 +964,20 @@
  	.content-img-caption {
  		margin: 10px 0;
  	}
+ 	.contact-phone {
+ 		padding-right: 24px;
+ 		text-align: center;
+ 		margin-top: 50px;
+ 	}
+ 	.header-contact .person-cabinet {
+ 		left: 28%;
+ 	}
+ 	header .langs {
+ 		top: 18px;
+ 	}
+ 	.menu-btn {
+ 		top: 12px;
+ 	}
  }
  /* Extra Small Devices, Phones */
  
@@ -1021,10 +1051,11 @@
  	.content-main-txt {
  		font-size: 15px;
  	}
- 	.contact-phone {
- 		/*	margin-left: 8%;*/
- 		margin-top: 10px;
+ 	.header-contact .person-cabinet {
+ 		left: 23%;
+ 		font-size: 17px;
  	}
+ 	.header-contact .person-cabinet img,
  	.contact-phone img {
  		display: none;
  	}
@@ -1058,9 +1089,6 @@
  	#director-info > li {
  		width: 111%;
  	}
- 	/*.contact-phone {
- 		margin-left: 6%;
- 	}*/
  }
  
  @media only screen and (max-width: 1500px) {
