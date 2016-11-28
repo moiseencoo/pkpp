@@ -718,6 +718,71 @@ ul.odd:before {
 }
 
 
+/*********** Lightbox *************/
+
+.lb-data .lb-number {
+	display: none !important;
+}
+
+.lb-data .lb-details {
+	text-align: center;
+	width: 100%;
+}
+
+.lb-data .lb-caption {
+	color: #f2eeee;
+	font-size: 24px;
+}
+
+.lb-nav a.lb-next {
+	width: 50px;
+	height: 50px;
+	top: 40%;
+	right: -65px;
+	position: absolute;
+	float: right;
+	background: url("../img/icons/next.png") no-repeat 20px 12px;
+	background-color: rgba(10, 69, 149, .5);
+	background-size: 13px;
+	border-radius: 45%;
+	opacity: 1;
+}
+
+.lb-nav a.lb-next:hover {
+	background-color: rgb(10, 69, 149);
+}
+
+.lb-nav a.lb-prev {
+	width: 50px;
+	height: 50px;
+	top: 40%;
+	left: -65px;
+	position: absolute;
+	float: left;
+	background: url("../img/icons/prev.png") no-repeat 17px 12px;
+	background-color: rgba(10, 69, 149, .5);
+	background-size: 13px;
+	border-radius: 45%;
+	opacity: 1;
+}
+
+.lb-nav a.lb-next:hover,
+.lb-nav a.lb-prev:hover {
+	background-color: rgb(10, 69, 149);
+}
+
+.lb-cancel {
+	background: url(../img/icons/loading.gif) no-repeat;
+}
+
+.lb-data .lb-close {
+	position: absolute;
+	top: -33px;
+	right: 10px;
+	background: url(../img/icons/close.png) top right no-repeat;
+}
+
+
 /************ Providers Section *******/
 
 .providers {

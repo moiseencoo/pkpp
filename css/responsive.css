@@ -978,6 +978,12 @@
  	.menu-btn {
  		top: 12px;
  	}
+ 	.lb-nav a.lb-prev {
+ 		left: 0;
+ 	}
+ 	.lb-nav a.lb-next {
+ 		right: 0;
+ 	}
  }
  /* Extra Small Devices, Phones */
  
@@ -1080,6 +1086,12 @@
  	}
  }
  /* Custom, iPhone Retina */
+ 
+ @media only screen and (max-width: 414px) {
+ 	.stages {
+ 		display: none;
+ 	}
+ }
  
  @media only screen and (max-width: 320px) {
  	.divider-line .white-txt {
