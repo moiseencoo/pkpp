@@ -1,17 +1,9 @@
-var menuWidth = $(window).width();
-$('.hack-me').width(menuWidth);
-/*if($(window).width() < 769) {
-	$('#footer-container').removeClass('container');
-} */
-$('.options').click(function () {
-	$('.langs > p').toggleClass('bold');
-	$('.contact-phone').toggle('slow');
-});
+//Menu slider 
 $('.menu-btn').click(function () {
 	$('.navbar').toggle('slow');
 });
 // Footer slider
-$('#ftr-1  .footer-hdr').click(function (e) {
+$('#ftr-1  .footer-hdr').last().click(function (e) {
 	if ($(this).hasClass("active")) {
 		e.preventDefault();
 		$(this).removeClass("active");
@@ -100,6 +92,9 @@ $(function () {
 		, navigationButtonsVisible: true
 		, enableMouseWheel: false
 	});
+});
+$('.sky-carousel-container li a').click(function () {
+	$(this).attr("data-lightbox", "gallery");
 });
 $(function () {
 	$('#news-carousel').carousel({

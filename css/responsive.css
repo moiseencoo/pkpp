@@ -1,6 +1,9 @@
  /* Large Devices, Wide Screens */
  
  @media only screen and (max-width: 1199px) {
+ 	.tez-block-text {
+ 		width: 71%;
+ 	}
  	#crumbs > ul > li {
  		min-width: 150px;
  		padding: 30px 30px 0 30px;
@@ -31,7 +34,7 @@
  		width: 156px;
  	}
  	#crumbs > ul > li >ul.odd {
- 		width: 162px;
+ 		width: 163px;
  	}
  	#crumbs > ul > li >ul.last-inside:after {
  		left: 112px;
@@ -177,10 +180,19 @@
  	.rastisk-1 .page-hdr {
  		margin-top: 0;
  	}
+ 	.dropdown-menu li>a.pdf-download {
+ 		right: 0;
+ 		top: 145px;
+ 	}
  }
  /* Medium Devices, Desktops */
  
  @media only screen and (max-width: 1024px) {
+ 	.nav .open>a,
+ 	.nav .open>a:focus {
+ 		background: #0193e3;
+ 		color: #fff;
+ 	}
  	p.options {
  		display: inline;
  	}
@@ -271,6 +283,19 @@
  	}
  	.navbar-nav > li > a {
  		padding-left: 25px;
+ 	}
+ 	.dropdown-menu li>a {
+ 		display: inline-block;
+ 	}
+ 	.dropdown-menu li>a.pdf-download {
+ 		position: relative;
+ 		top: 0;
+ 		right: 0;
+ 		margin-left: -5px;
+ 		display: inline-block;
+ 	}
+ 	.dropdown-menu li>a.pdf-download p {
+ 		display: block;
  	}
  }
  
@@ -665,18 +690,8 @@
  		display: none;
  	}
  	.tez-block-text {
- 		width: 63px;
+ 		width: 65%;
  		margin: 15px;
- 	}
- 	.dropdown-menu li>a {
- 		display: inline-block;
- 	}
- 	.dropdown-menu li>a.pdf-download {
- 		position: relative;
- 		top: 0;
- 		right: 0;
- 		margin-left: -5px;
- 		display: inline-block;
  	}
  }
  /* Small Devices, Tablets */
@@ -689,6 +704,9 @@
  	.ul-providers li {
  		width: 33%;
  		padding-left: 0;
+ 	}
+ 	.tez-block-text {
+ 		width: 60%;
  	}
  }
  
@@ -922,6 +940,12 @@
  	}
  }
  
+ @media only screen and (max-width: 680px) {
+ 	.tez-block-text {
+ 		width: 53%;
+ 	}
+ }
+ 
  @media only screen and (max-width: 580px) {
  	.rast-types .col-md-3 {
  		padding: 0;
@@ -1012,7 +1036,7 @@
  		margin-top: 50px;
  	}
  	.header-contact .person-cabinet {
- 		left: 28%;
+ 		left: 29%;
  	}
  	header .langs {
  		top: 18px;
@@ -1025,6 +1049,12 @@
  	}
  	.lb-nav a.lb-next {
  		right: 0;
+ 	}
+ 	.tez-block img {
+ 		display: none;
+ 	}
+ 	.tez-block-text {
+ 		width: 93%;
  	}
  }
  /* Extra Small Devices, Phones */
@@ -1100,8 +1130,9 @@
  		font-size: 15px;
  	}
  	.header-contact .person-cabinet {
- 		left: 23%;
+ 		left: 50%;
  		font-size: 17px;
+ 		margin-left: -85px;
  	}
  	.header-contact .person-cabinet img,
  	.contact-phone img {
@@ -1145,8 +1176,14 @@
  	}
  }
  
- @media only screen and (max-width: 1500px) {
- 	.header-through-line-right {
- 		width: 5%;
+ @media only screen and (max-width: 1700px) {
+ 	#crumbs ul li:before {
+ 		left: -2px;
+ 	}
+ }
+ 
+ @media only screen and (max-width: 1920px) {
+ 	#crumbs ul li:before {
+ 		left: -3px;
  	}
  }

@@ -104,7 +104,7 @@ header .header-logo {
 	display: inline;
 	padding: 25px 0;
 	float: left;
-	margin-left: -20px;
+	margin-left: -35px;
 	margin-right: 20px;
 }
 
@@ -200,15 +200,18 @@ header .langs > a.active {
 	padding: 15px 20px;
 }
 
-.navbar-nav > li.active,
 .navbar-nav > li.active > a,
-.navbar-nav > li > a:hover,
-.navbar-nav > li > a:focus,
-.nav .open>a,
 .nav .open>a:hover,
-.nav .open>a:focus {
+.navbar-nav > li.active,
+.navbar-nav > li > a:hover {
 	background: #0193e3;
 	color: #fff;
+}
+
+.nav .open>a,
+.nav .open>a:focus {
+	background: transparent;
+	color: #2d3643;
 }
 
 .nav-menu-arrow {
@@ -226,8 +229,7 @@ header .langs > a.active {
 	transform: rotate(45deg);
 }
 
-.navbar-nav > li > a:hover .nav-menu-arrow,
-.navbar-nav > li > a:focus .nav-menu-arrow {
+.navbar-nav > li > a:hover .nav-menu-arrow {
 	border-right: 2px solid #fff;
 	border-bottom: 2px solid #fff;
 }
@@ -280,6 +282,10 @@ header .langs > a.active {
 	font-family: 'RobotoCondensed-Bold';
 	text-decoration: none;
 	text-transform: uppercase;
+}
+
+.dropdown-menu li>a.pdf-download p {
+	display: none;
 }
 
 .dropdown-menu li>a>img {
@@ -475,8 +481,8 @@ span.icon-people {
 	display: none;
 	position: absolute;
 	top: 184px;
-	right: -40px;
-	width: 185px;
+	right: -38px;
+	width: 183px;
 	min-height: 130px;
 	padding: 20px 10px 0 0;
 	color: #fff;
@@ -498,8 +504,8 @@ span.icon-people {
 
 #crumbs > ul > li >ul.odd {
 	background: #0a4595;
-	width: 193px;
-	right: -47px;
+	width: 191px;
+	right: -45px;
 }
 
 #crumbs > ul > li >ul.odd h2 {
@@ -544,8 +550,8 @@ ul.odd:before {
 
 #crumbs > ul > li >ul.last-inside {
 	width: 192px;
-	top: 184px;
-	right: -47px;
+	top: 183px;
+	right: -46px;
 }
 
 #crumbs > ul > li >ul.last-inside:after {
@@ -583,7 +589,7 @@ ul.odd:before {
 	border-bottom: 92px solid transparent;
 	border-left: 47px solid #0a4595;
 	position: absolute;
-	right: -47px;
+	right: -46px;
 	top: 0;
 }
 
@@ -811,7 +817,7 @@ ul.odd:before {
 #carousel-provider {
 	margin-top: 50px;
 	margin-bottom: 50px;
-	position: initial;
+	position: static;
 }
 
 .carousel-control.right {
@@ -2077,11 +2083,20 @@ compensation {
 **************Tezaurus BEGINS ********************
 ****************************************************/
 
+.tezaurus {
+	padding-bottom: 40px;
+}
+
+.tezaurus .page-hdr {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
 .tezaurus .tez-block {
 	min-height: 305px;
 	background: #f7f7f7;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 .tezaurus .tez-block h2 {
