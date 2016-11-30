@@ -971,12 +971,6 @@
  	}
  }
  
- @media only screen and (max-width: 680px) {
- 	/*.tez-block-text {
-	width: 53%;
-}*/
- }
- 
  @media only screen and (max-width: 580px) {
  	.rast-types .col-md-3 {
  		padding: 0;
