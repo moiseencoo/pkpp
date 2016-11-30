@@ -722,7 +722,7 @@
  		padding-left: 0;
  	}
  	.tez-block-text {
- 		width: 58%;
+ 		width: calc(100% - 275px);
  	}
  	.tezaurus .page-hdr {
  		margin-top: 10px;
@@ -972,9 +972,9 @@
  }
  
  @media only screen and (max-width: 680px) {
- 	.tez-block-text {
- 		width: 53%;
- 	}
+ 	/*.tez-block-text {
+	width: 53%;
+}*/
  }
  
  @media only screen and (max-width: 580px) {
@@ -1086,6 +1086,8 @@
  	}
  	.tez-block-text {
  		width: 90%;
+ 		float: none;
+ 		margin: 20px auto;
  		padding: 25px;
  	}
  }
