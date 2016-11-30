@@ -2093,7 +2093,8 @@ compensation {
 }
 
 .tezaurus .tez-block {
-	min-height: 305px;
+	/*min-height: 305px;*/
+	display: table;
 	background: #f7f7f7;
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -2109,8 +2110,8 @@ compensation {
 .tez-block-text {
 	background: #fff;
 	padding: 20px;
-	margin: 15px;
-	width: 54%;
+	margin: 19px;
+	width: calc(100% - 250px);
 	float: left;
 }
 

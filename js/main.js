@@ -2,6 +2,16 @@
 $('.menu-btn').click(function () {
 	$('.navbar').toggle('slow');
 });
+// ***************
+$(window).resize(function () {
+	if ($(window).width() < 1024) {
+		$('.dropdown-p-container span').find('br').remove();
+	}
+});
+if ($(window).width() < 1024) {
+	$('.dropdown-p-container span').find('br').remove();
+}
+//*************
 // Footer slider
 $('#ftr-1  .footer-hdr').last().click(function (e) {
 	if ($(this).hasClass("active")) {
@@ -93,9 +103,9 @@ $(function () {
 		, enableMouseWheel: false
 	});
 });
-$('.sky-carousel-container li a').click(function () {
+/*$('.sky-carousel-container li a').click(function () {
 	$(this).attr("data-lightbox", "gallery");
-});
+});*/
 $(function () {
 	$('#news-carousel').carousel({
 		itemWidth: 338
