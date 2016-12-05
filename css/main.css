@@ -2149,6 +2149,95 @@ compensation {
 
 
 /****************************************************
+**************Rosetki BEGINS ********************
+****************************************************/
+
+.main-txt {
+	font-family: RobotoCondensedRegular;
+	font-size: 16px;
+	color: #2d3643;
+}
+
+.gray-txt {
+	color: #dde7f5;
+}
+
+h2.main-txt {
+	text-transform: uppercase;
+	margin: 10px;
+}
+
+.white-bg {
+	background: #fff;
+	margin-left: -30px;
+	margin-right: -30px;
+	margin-bottom: -40px;
+}
+
+.white-bg .main-txt {
+	padding: 30px;
+}
+
+.roset1 .page-hdr {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.roset1 .roset1-grey-area {
+	background: #f7f7f7 url(../img/rastis/r1_bottom_line.png) top center repeat-x;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+}
+
+.roset2 {
+	background: #114394 url(../img/roset/roset_bg.png) no-repeat;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+.roset1-img {
+	float: right;
+}
+
+.roset2 .roset2-border-area {
+	border: 1px solid #5e7cb3;
+	padding: 30px;
+}
+
+.roset2-border-area .row {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.roset2-border-area .col-md-4 {
+	padding: 0;
+}
+
+.roset-img {
+	border: 10px solid #fff;
+	margin: 5px;
+	width: 45%;
+}
+
+.roset3 .sub-hdr {
+	font-size: 20px;
+}
+
+.roset3-block {
+	border: 1px solid #d3d3d3;
+	background: url(../img/rastis/vertical-line.png) right center repeat-y;
+	margin: 15px 0;
+	padding: 20px 0;
+}
+
+.roset3-block .blue-left-line {
+	padding: 10px 30px;
+	border-left: 2px solid #083683;
+}
+
+
+/****************************************************
 **************FOOTER BEGINS ********************
 ****************************************************/
 
