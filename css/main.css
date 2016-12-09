@@ -2448,12 +2448,12 @@ a.self {
 ****************************************************/
 
 .polos1 .page-hdr {
-	margin-top: 50px;
+	margin: 50px 0;
 }
 
 .polos1-grey-area {
 	background: #f7f7f7;
-	margin: 40px 0 0 0;
+	margin: 30px 0 0 0;
 	padding: 30px 0;
 }
 
@@ -2478,7 +2478,7 @@ a.self {
 	border-top: 3px solid #fff;
 	border-bottom: 1px solid #e1e1e1;
 	margin-bottom: 3px;
-	padding: 50px 0;
+	padding: 50px 0 20px 0;
 }
 
 .polos1-block {
@@ -2514,7 +2514,7 @@ a.self {
 .vertical-line {
 	position: absolute;
 	width: 80%;
-	height: 1px;
+	height: 1.5px;
 	background: #e1e1e1;
 }
 
@@ -2527,7 +2527,7 @@ a.self {
 }
 
 #line3 {
-	width: 1px;
+	width: 1.5px;
 	height: 70%;
 	left: 24%;
 }
@@ -2549,14 +2549,19 @@ a.self {
 
 .polos2 {
 	border-top: 8px solid #0a418e;
-	padding: 40px 0;
+	padding: 30px 0 40px 0;
 	background: url(../img/polosi/polis2-bg.jpg);
+}
+
+.polos2 table {
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 
 .polos3 table td,
 .polos2 table td {
 	padding-right: 30px;
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 	vertical-align: top;
 }
 
@@ -2577,10 +2582,11 @@ h5 {
 
 .polos3 {
 	background: #0a418e;
+	padding: 30px 0 0 0;
 }
 
 .polos3 table {
-	padding-bottom: 40px;
+	margin: 30px 0 15px 0;
 }
 
 .polos3 table td {
@@ -2589,20 +2595,22 @@ h5 {
 
 .polos3-bottom-blue-block {
 	background: url(../img/polosi/polos3-bg.jpg);
-	padding: 40px 0;
+	padding: 40px 0 30px 0;
+}
+
+.polos4 .col-md-5 {
+	background: url(../img/underline.png) center bottom repeat-x;
+	padding: 0;
 }
 
 .dictionary {
 	background: #159feb;
-	padding: 50px 30px 50px 20px;
+	padding: 50px 30px;
+	margin-bottom: 12px;
 }
 
 .dictionary span {
 	font-weight: bold;
-}
-
-.dictionary .main-txt {
-	padding-left: 10px;
 }
 
 
@@ -2617,6 +2625,7 @@ h5 {
 
 .dictionary .bold20 {
 	text-align: left;
+	margin: 0 0 20px 0;
 }
 
 .polos4 .col-md-7 {
@@ -2625,13 +2634,207 @@ h5 {
 
 .polos5 {
 	background: url(../img/polosi/polos5-bg.png);
-	padding: 50px 0;
+	padding: 30px 0 40px 0;
+	border-top: 2px solid #e1e1e1;
 }
 
 .polos5 .white-container {
 	padding: 30px;
 	border: 1px solid #e1e1e1;
-	margin: 30px 0;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+.polos5 .container > .main-txt:first-child {
+	padding-top: 40px;
+	background: url(../img/underline.png) center top repeat-x;
+}
+
+.polos6 {
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+.polos6 .bold20 {
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+
+.polos6 .col-md-4 {
+	padding-right: 0;
+}
+
+.polos6 .col-md-4 img {
+	width: 100%;
+}
+
+.polos6 .col-md-8 {
+	padding: 20px 40px;
+	border: 1px solid #e1e1e1;
+}
+
+.polos6 .col-md-8:last-child {
+	background: #f7f7f7 url(../img/);
+}
+
+.polos6 .bold25 {
+	text-align: left;
+}
+
+.attention {
+	padding: 20px;
+	border: 1px solid #e1e1e1;
+	width: 95%;
+	position: relative;
+	float: right;
+	margin-right: -15px;
+	margin-bottom: 20px;
+	background: #fff;
+}
+
+.attention:before {
+	content: '';
+	background: url(../img/icons/icon-logopart.png) no-repeat;
+	width: 28px;
+	height: 55px;
+	top: 50%;
+	margin-top: -28px;
+	left: -72px;
+	position: absolute;
+}
+
+.polos6 .vertical-line {
+	top: 50%;
+	display: block;
+	left: -50px;
+	z-index: -1;
+	height: 1.5px;
+}
+
+.polos7-hdr {
+	background: #159feb;
+}
+
+.polos7-hdr .main-txt {
+	padding: 20px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	overflow: hidden;
+	text-align: center;
+}
+
+.polos7-hdr .main-txt:before,
+.polos7-hdr .main-txt:after {
+	background-color: #fff;
+	content: "";
+	display: inline-block;
+	height: 1.5px;
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
+}
+
+.polos7-hdr .main-txt:before {
+	right: 20px;
+	margin-left: -50%;
+}
+
+.polos7-hdr .main-txt:after {
+	left: 20px;
+	margin-right: -50%;
+}
+
+.quote {
+	position: relative;
+}
+
+.quote:before {
+	content: '';
+	background: url(../img/icons/icon-quote.png) no-repeat;
+	width: 36px;
+	height: 23px;
+	top: -8px;
+	left: -50px;
+	position: absolute;
+}
+
+.polos7-blue-block {
+	background: #0a418e;
+	padding: 20px 0;
+	margin: 50px 0;
+}
+
+.polos7-blue-block .col-md-5 {
+	position: relative;
+}
+
+.polos7-blue-block .col-md-5 img {
+	position: absolute;
+	top: -68px;
+}
+
+h2.main-txt {
+	text-transform: uppercase;
+	text-align: center;
+	margin: 40px 0 30px 0;
+}
+
+.polos8 {
+	background: url(../img/polosi/polos7-bg.jpg);
+	margin-top: 40px;
+	padding-bottom: 30px;
+	border-bottom: 5px solid #0a418e;
+}
+
+.polos8-block {
+	padding-bottom: 30px;
+}
+
+.polos8-block .main-txt {
+	padding: 40px 20px 0 40px;
+	position: relative;
+	background: #fff;
+	border: 1px solid #e1e1e1;
+	min-height: 160px;
+	display: block;
+}
+
+.polos8-block .main-txt:before {
+	content: '';
+	background: url(../img/icons/corner-txt-blue.png) no-repeat;
+	width: 54px;
+	height: 54px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.polos9 {
+	padding: 50px 0;
+}
+
+.polos9 .col-md-4 {
+	position: relative;
+}
+
+.polos9 .col-md-4 img {
+	border: 10px solid #fff;
+	outline: 1px solid #e1e1e1;
+	width: 100%;
+}
+
+.polos9 .col-md-4 .bold20 {
+	background: rgba(10, 65, 142, 0.95);
+	padding: 15px;
+	position: absolute;
+	top: 38%;
+	left: 12%;
+	width: 75%;
+}
+
+.polos9 .main-txt {
+	background: url(../img/rastis/vertical-line.png) left center repeat-y;
+	padding-left: 25px;
 }
 
 
