@@ -9,7 +9,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Растры и розетки</title>
+	<title></title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -24,7 +25,7 @@
 
 <body>
 	<!--[if lt IE 8]>
-	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 	<header>
 		<div class="header-through-line"></div>
@@ -197,97 +198,59 @@
 		<!--/.navbar-collapse -->
 	</nav>
 	<!--/.navigation-->
-	<section class="roset1">
+	<section class="fantom1">
 		<div class="container">
-			<h2 class="page-hdr">Растры и розетки</h2>
-			<h2 class="blue-txt sub-hdr">Методы уменьшения различимости растровой структуры</h2>
-			<p class="main-txt text-center"> Образование розеточной структуры или растровых «розеток» значительно ухудшает зрительное восприятие изображения. Очень часто именно образование розеточной структуры на информационно важных участках изображения приводит к необоснованным претензиям клиентов. </p>
-		</div>
-		<div class="roset1-grey-area">
+			<h2 class="page-hdr">
+				Фантомы печати. Мифы и реальность.
+			</h2>
+			<p class="main-txt text-right blue-txt italic"> Фантом – призрак – образ чего-либо несуществующего в реальности. </p>
+			<p class="main-txt"> Словом «фантом» в печати определяют как правило появление, необъяснимых с точки зрения конкретного печатающего индивидуума, паразитного изображения, возникающего на печатном оттиске во время печати.
+				<br>Появление печатных «фантомов» периодически наблюдается, как при ролевой, так и листовой печати. Форма и вид «фантомов» довольна разнообразна. Для борьбы с этим «потусторонним явлением» отдел главного технолога ПКПП совместно с рядом ведущих европейских лабораторий и научно-исследовательских институтов проводил и проводит сбор информации по данному вопросу и анализ причин возникновения фантомных изображений. К настоящему моменту описаны и исследованы четыре вида фантомов.
+				<br> Фантомные изображения были классифицированы и для каждого класса фантомов было дано научное определение и описан механизм образования. </p>
+			<h2 class="sub-hdr25 blue-txt">
+					Всего было описано четыре вида «фантомов»
+				</h2> </div>
+		<div class="fantom1-types">
 			<div class="container">
-				<p class="main-txt"> Наиболее интуитивно понятным методом уменьшения различимости является увеличение линиатуры при растрировании. Действительно при увеличении линиатуры приводит к уменьшению растровой розетки, но например, как показывают расчеты увеличение линиатуры с 150 до 175 линий на дюйм приводит к уменьшению розетки всего на 11 процентов, поэтому этот метод не очень продуктивен. А учитывая проблемы, возникающие при увеличении линиатуры при печати и возможные потери градаций, он вообще нежелателен. </p>
-			</div>
-		</div>
-	</section>
-	<section class="roset2">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-sm-6">
-					<p class="main-txt gray-txt"> Более действенными методами являются методики, основанные на разрушении розеточной структуры. Например, изменение частоты отдельных сепараций. Но тут необходима осторожность и тщательная проверка перед промышленным использованием. </p>
-					<p class="main-txt gray-txt"> Многие растровые процессоры предлагают готовые скринсеты с измененными частотами сепараций, подобранными именно с расчетом уменьшить розеточную структуру на изображении. </p>
-				</div>
-				<div class="col-md-4 col-sm-6"> <img class="roset1-img" src="img/roset/roset1.jpg"> </div>
-			</div>
-			<h2 class="main-txt gray-txt text-center">
-		Другим способом уменьшения растровой розетки является подбор метода цветового синтеза.
-	</h2>
-			<h2 class="main-txt gray-txt text-center"> 
-		Визуальная величина растровой розетки различна для разных цветов и зависит от CMYK-координат воспроизводимого цвета.
-	</h2>
-			<div class="roset2-border-area">
-				<p class="main-txt gray-txt"> Давайте рассмотрим влияние CMYK-рецептуры на образование растровой розетки
-					<br> На рисунке показаны три вида растровых розеток образующихся в результате применения «классических» углов поворота растра для трех вариантов </p>
-				<div class="row">
-					<div class="col-md-4 col-sm-6">
-						<div> <img src="img/roset/roset1_1.jpg" class="roset-img"> <img src="img/roset/roset1_2.jpg" class="roset-img">
-							<p class="main-txt gray-txt"> 1 - растровая розетка образованна двумя красками </p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<div> <img src="img/roset/roset2_1.jpg" class="roset-img"> <img src="img/roset/roset2_2.jpg" class="roset-img">
-							<p class="main-txt gray-txt"> 2 - растровая розетка образованна тремя красками </p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<div> <img src="img/roset/roset3_1.jpg" class="roset-img"> <img src="img/roset/roset3_2.jpg" class="roset-img">
-							<p class="main-txt gray-txt"> 3 - растровая розетка состоящая из четырех красок </p>
-						</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="fantom1-type">
+						<p class="bold-txt text-center uppercase"> хостинг - ghosting </p>
 					</div>
 				</div>
-				<div class="white-bg">
-					<p class="main-txt"> Как хорошо видно на приведённых иллюстрациях чем больше контурообразующих красок (СМК) участвует в образовании растровой розетки тем больше ее размер. Следовательно, необходимо выбирать для цветоделения такие методы, чтобы образующиеся при цветовом синтезе цвета, особенно в полутонах, имели оптимальную для растровой структуры рецептуру. Например, GCR c поздним стартом черной краски. </p>
+				<div class="col-md-3 col-sm-6">
+					<div class="fantom1-type">
+						<p class="bold-txt text-center uppercase"> дублинг - doubling </p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="fantom1-type">
+						<p class="bold-txt text-center uppercase"> матово-глянцевый эффект - chemical ghosting </p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="fantom1-type">
+						<p class="bold-txt text-center uppercase"> фантоминг - fantoming </p>
+					</div>
 				</div>
 			</div>
 		</div>
-	</section>
-	<section class="roset3">
-		<div class="container">
-			<h2 class="sub-hdr blue-txt text-center">
-		Межсепарационный муар полностью устранить безусловно можно, но другими методами
-	</h2>
-			<div class="roset3-block">
-				<div class="blue-left-line">
-					<p class="main-txt"> Одним из наиболее перспективных методов позволяющий полностью исключить образование интерференционных структур является применение стохастического растрирования. Нет периодической структуры – нет и муара. В настоящее время идет активная стандартизация печати с применением стохастических растров, поэтому в ближайшие 3-5 лет стохастика найдет широкое применение в промышленной печати как листовой так и ролевой. </p>
-				</div>
-			</div>
-			<div class="roset3-block">
-				<div class="blue-left-line">
-					<p class="main-txt"> Применение комбинированного растрирования (не путать с гибридным). Комбинированное растрирование это использование различных видов растров для растрирования различных красочных сепараций. </p>
-					<h4 class="example">Пример</h4>
-					<div class="row">
-						<div class="col-md-4 col-sm-12">
-							<p class="main-txt"> Для уменьшения растровой розетки черную краску можно вывести стохастикой, а голубую, пурпурную и желтую круглой или эллиптической точкой с углами поворота 15°, 45° и 75° соответственно. В данном варианте величина растровой розетки практически равна линиатуре растра и соответственно визуально неразличима при нормальных условия просмотра. </p>
-						</div>
-						<div class="col-md-4 col-sm-6"> <img src="img/roset/roset4_1.jpg" class="roset-img"> <img src="img/roset/roset4_2.jpg" class="roset-img">
-							<h4 class="main-txt caption">Классический эллиптический растр
-
-</h4> </div>
-						<div class="col-md-4 col-sm-6"> <img src="img/roset/roset5_1.jpg" class="roset-img"> <img src="img/roset/roset5_2.jpg" class="roset-img">
-							<h4 class="main-txt caption">Комбинированное растрирование</h4> </div>
-					</div>
-					<p class="main-txt"> Данный метод растрирования полностью по цвету подходит под стандарт печати и не требует специального профилирования процесса. Достаточно только скомпенсировать градационную кривую по черной краске. </p>
-				</div>
-				<!-- /.blue-left-line-->
-			</div>
-			<!--/.roset3-block-->
+		<div class="fantom1_blue_area-hdr dark-blue-bg">
+			<p class="main-txt white-txt text-center"> Из них научно исследовано только три вида <strong>ghosting, doubling и chemical ghosting</strong> </p>
 		</div>
-		<!--/.container-->
 	</section>
-	<!--/section .roset3-->
-	<section class="roset4">
+	<section class="fantom2">
 		<div class="container">
-			<div class="overline"></div>
-			<p class="main-txt">В настоящий момент методика комбинированного растрирования на существующих растровых процессорах детально отработана в типографии Полиграфический комплекс <a href="index.html" class="self">«Пушкинская площадь»</a> и с большим успехом применяется при печати ряда изданий.</p>
+			<h2 class="sub-hdr blue-txt">МАТОВО-ГЛЯНЦЕВЫЙ ЭФФЕКТ или ХИМИЧЕСКИЕ ФАНТОМЫ</h2>
+			<p class="main-txt"> Первым исследованным видом был матово-глянцевый эффект (МГЭ). В иностранных публикациях данный вид фантомов часто обзывают «chemical ghosting», что можно перевести как химический фантом. </p>
+			<p class="border-txt main-txt"> МГЭ – появление на оборотной стороне зеркального изображения, графических объектов, напечатанных на лицевой стороне, металлизированными или флуоресцентными пантоновыми красками, а также фантомных изображений плотных красочных участков с высокими значениями суммарного тона красок (total ink). «Фантомное» изображение образуется в результате локальной ретикуляции (растрескивания) поверхности красочного слоя, в результате чего происходит визуальное изменение глянца поверхности краски. </p>
+			<p class="main-txt"> МГЭ возникает на оборотной стороне обложек, лицевая сторона которых лакируется в/д и/или УФ-лаком. Если печатный лист вытащить из машины непосредственно после печати, то эффект практически незаметен. Эффект возникает в стопе через некоторое, иногда, довольно продолжительное время (от 30 минут до 3 часов). </p>
+			
+			<p class="main-txt accent">
+				Проблема возникает из-за взаимодействия сиккативных компонентов листовых красок с некоторыми компонентами бумаги. В процессе этого химического взаимодействия образуется свободно-радикальные соединения, которые является катализатором окислительной полимеризации. Под его действием скорость закрепления краски увеличивается многократно, что приводит к увеличению внутренней напряженности красочного слоя и образованию трещин на его поверхности. Деформация настолько велика, что в ряде случаев отмечается образование хорошо заметного рельефа, напоминающего конгревное тиснение.
+			</p>
+			
+			<p class="main-txt"> Существуют и другие теории объясняющие образование МГЭ в которых главную роль в ускорении закрепления красок отводится определенным компонентам красок или бумаги, но общий вывод у всех исследователей – причина в взаимодействии компонентов бумаги и продуктов закрепления красок при тесном контакте лицевой и оборотной сторон запечатанной бумаги в стопе. (подробнее о механизме образования МГЭ можно прочитать в статье Уве Бертольда «Фантомы перестают быть загадкой» PrintCom Russia №19/20-2008) </p>
+			<p class="main-txt"> Одной из особенностей данного фантома является то, что его практически невозможно инструментально измерить и зафиксировать. Ни глянцметр, ни денситометрическое или спектрометрические приборы его не фиксируют количественно, что затрудняло его исследование. Уже несколько лет данного явления не наблюдается. Исправляется дополнительной ВД-лакировкой поверхности оттиска с фантомами, которая выравнивает глянец и фантомы исчезают. </p>
 		</div>
 	</section>
 	<footer>
@@ -297,12 +260,12 @@
 					<div class="ftr-colm link" id="ftr-1">
 						<h2 class="footer-hdr"><a href="index.html">Главная</a></h2>
 						<h2 class="hidden-lg hidden-md footer-hdr">
-					<a href="content.html">О нас</a>
-						<span class="open-ftr pull-right plus-sign"><img src="img/icons/ftr_plus.png"></span>
-						<span class="open-ftr pull-right open-ftr-minus">
-						<img src="img/icons/ftr_minus.png">
-						</span>
-					</h2>
+				<a href="content.html">О нас</a>
+					<span class="open-ftr pull-right plus-sign"><img src="img/icons/ftr_plus.png"></span>
+					<span class="open-ftr pull-right open-ftr-minus">
+					<img src="img/icons/ftr_minus.png">
+					</span>
+				</h2>
 						<ul class="footer-ul ftr-slider">
 							<li><a href="content.html">О нас</a></li>
 							<li><a href="content.html">Оборудование</a></li>
@@ -316,11 +279,11 @@
 				<div class="col-md-3">
 					<div class="ftr-colm" id="ftr-2">
 						<h2 class="footer-hdr">Продукция
-				<span class="open-ftr pull-right plus-sign"><img src="img/icons/ftr_plus.png"></span>
-				<span  class="open-ftr pull-right open-ftr-minus">
-				<img src="img/icons/ftr_minus.png">
-				</span>
-				</h2>
+			<span class="open-ftr pull-right plus-sign"><img src="img/icons/ftr_plus.png"></span>
+			<span  class="open-ftr pull-right open-ftr-minus">
+			<img src="img/icons/ftr_minus.png">
+			</span>
+			</h2>
 						<ul class="footer-ul ftr-slider">
 							<li><a href="content.html">Периодическая пресса</a></li>
 							<li><a href="content.html">Ритейл</a></li>
@@ -333,11 +296,11 @@
 				<div class="col-md-3">
 					<div class="ftr-colm" id="ftr-3">
 						<h2 class="footer-hdr">В печать
-				<span class="open-ftr pull-right plus-sign"><img src="img/icons/ftr_plus.png"></span>
-				<span class="open-ftr pull-right open-ftr-minus">
-				<img src="img/icons/ftr_minus.png">
-				</span>
-				</h2>
+			<span class="open-ftr pull-right plus-sign"><img src="img/icons/ftr_plus.png"></span>
+			<span class="open-ftr pull-right open-ftr-minus">
+			<img src="img/icons/ftr_minus.png">
+			</span>
+			</h2>
 						<ul class="footer-ul ftr-slider">
 							<li><a href="content.html">Выбор бумаги</a></li>
 							<li><a href="content.html">Технические требования</a></li>
@@ -350,7 +313,7 @@
 				<div class="col-md-3">
 					<div class="ftr-colm" id="ftr-4">
 						<h2 class="footer-hdr"><a href="contact.html">Контакты</a>
-				</h2>
+			</h2>
 						<ul class="footer-ul-cnt">
 							<li class="ftr-cnt-phone"><img src="img/icons/icon-phone.png"> <a href="tel:+74952761606">+7(495) 276-16-06</a></li>
 							<li>Адрес:
@@ -385,12 +348,12 @@
 	<script src="js/main.js"></script>
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 	<!--  <script>
-	(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-	function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-	e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-	e.src='//www.google-analytics.com/analytics.js';
-	r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-	ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+e.src='//www.google-analytics.com/analytics.js';
+r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+ga('create','UA-XXXXX-X','auto');ga('send','pageview');
 </script>-->
 </body>
 
