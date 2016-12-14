@@ -16,7 +16,8 @@
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300, 400, 700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -25,27 +26,27 @@
 <body>
 	<div class="body-wrapper">
 		<!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
 		<header>
 			<div class="header-through-line"></div>
-			<div class="header-through-line header-through-line-right"></div>
 			<div class="container header-container">
 				<div class="row">
 					<div class="col-md-3">
 						<p class="header-logo">
-							<a href="#"> <img class="logo-img" src="img/logo.png" alt="Пушкинская площадь"> </a>
+							<a href="index.html"> <img class="logo-img" src="img/logo.png" alt="Пушкинская площадь"> </a>
 						</p>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 dark-blue-bg">
 						<p class="header-main-txt">Время печататься в России!</p>
 					</div>
-					<div class="col-md-3 header-contact">
-						<p class="contact-phone"> <img src="img/icons/icon-phone.png"> <a href="tel:4952761606">(495) 276-16-06</a> </p>
+					<div class="col-md-3 header-contact dark-blue-bg">
+						<a href="#" class="person-cabinet"><img src="img/icons/icon-person.png">Личный кабинет</a>
+						<p class="contact-phone"> <img src="img/icons/icon-phone.png"> <a href="tel:+74952761606">+7(495) 276-16-06</a> </p>
 						<div class="pull-left menu-btn">
 							<a href="#"><img src="img/menu-btn.png"></a>
 						</div>
-						<div class="langs"><a href="#">RU</a> <a class="active" href="#">EN</a> </div>
+						<div class="langs"> <a class="active" href="#">RU</a> <a href="#">EN</a> </div>
 					</div>
 				</div>
 			</div>
@@ -54,53 +55,47 @@
 			<div class="navbar-header"> </div>
 			<div id="navbar">
 				<ul class="nav navbar-nav">
-					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Главная <span class="nav-menu-arrow"></span></a>
+					<li> <a href="index.html">Главная</a> </li>
+					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">О нас <span class="nav-menu-arrow"></span></a>
 						<ul class="dropdown-menu container">
 							<div class="container">
 								<li>
-									<a href="#"> <img src="img/menu-1.jpg">
-										<div class="dropdown-p-container">
-											<p><span>Главная</span></p>
-										</div>
-									</a>
-								</li>
-								<li>
-									<a href="#"> <img src="img/menu-4.jpg">
+									<a href="content.html"> <img src="img/menu-1.jpg">
 										<div class="dropdown-p-container">
 											<p class="one-line"><span>О нас</span></p>
 										</div>
 									</a>
 								</li>
 								<li>
-									<a href="#"> <img src="img/menu-1.jpg">
+									<a href="content.html"> <img src="img/menu-1.jpg">
 										<div class="dropdown-p-container">
 											<p class="one-line"><span>Оборудование</span></p>
 										</div>
 									</a>
 								</li>
 								<li>
-									<a href="#"> <img src="img/menu-4.jpg">
+									<a href="content.html"> <img src="img/menu-4.jpg">
 										<div class="dropdown-p-container">
 											<p><span>Возможности <br> и технологии</span></p>
 										</div>
 									</a>
 								</li>
 								<li>
-									<a href="#"> <img src="img/menu-4.jpg">
+									<a href="content.html"> <img src="img/menu-4.jpg">
 										<div class="dropdown-p-container">
 											<p><span>История <br>развития</span></p>
 										</div>
 									</a>
 								</li>
 								<li>
-									<a href="#"> <img src="img/menu-4.jpg">
+									<a href="content.html"> <img src="img/menu-4.jpg">
 										<div class="dropdown-p-container">
 											<p><span>Склад и <br> логистика</span></p>
 										</div>
 									</a>
 								</li>
 								<li>
-									<a href="#"> <img src="img/menu-4.jpg">
+									<a href="content.html"> <img src="img/menu-4.jpg">
 										<div class="dropdown-p-container">
 											<p><span>Ремонт <br> оборуования</span></p>
 										</div>
@@ -113,42 +108,35 @@
 						<ul class="dropdown-menu">
 							<div class="container">
 								<li>
-									<a href="#">
-										<div class="dropdown-p-container">
-											<p><span>Продукция</span></p>
-										</div>
-									</a>
-								</li>
-								<li>
-									<a href="#"> <img src="img/menu-1.jpg">
+									<a href="content.html"> <img src="img/menu-1.jpg">
 										<div class="dropdown-p-container">
 											<p><span>Периодическая <br> пресса</span></p>
 										</div>
 									</a>
 								</li>
 								<li>
-									<a href="#"> <img src="img/menu-2.jpg">
+									<a href="content.html"> <img src="img/menu-2.jpg">
 										<div class="dropdown-p-container">
 											<p class="one-line"><span>Ритейл</span></p>
 										</div>
 									</a>
 								</li>
 								<li>
-									<a href="#"> <img src="img/menu-3.jpg">
+									<a href="content.html"> <img src="img/menu-3.jpg">
 										<div class="dropdown-p-container">
 											<p class="one-line"><span>Каталоги</span></p>
 										</div>
 									</a>
 								</li>
 								<li>
-									<a href="#"> <img src="img/menu-4.jpg">
+									<a href="content.html"> <img src="img/menu-4.jpg">
 										<div class="dropdown-p-container">
 											<p><span>Детские <br> издания</span></p>
 										</div>
 									</a>
 								</li>
 								<li>
-									<a href="#"> <img src="img/menu-5.jpg">
+									<a href="content.html"> <img src="img/menu-5.jpg">
 										<div class="dropdown-p-container">
 											<p><span>Специальные <br> возможности</span></p>
 										</div>
@@ -187,19 +175,25 @@
 											<p class="one-line"><span>Инсайт</span></p>
 										</div>
 									</a>
+									<a href="#" class="pdf-download"><img src="img/icons/PDF_download.png">
+										<p>/&nbsp; Скачать PDF</p>
+									</a>
 								</li>
 								<li>
 									<a href="#"> <img src="img/menu-4.jpg">
 										<div class="dropdown-p-container">
-											<p class="one-line"><span>Далим</span></p>
+											<p class="one-line"><span>Далим</span> </p>
 										</div>
+									</a>
+									<a href="#" class="pdf-download"><img src="img/icons/PDF_download.png">
+										<p>/&nbsp; Скачать PDF</p>
 									</a>
 								</li>
 							</div>
 						</ul>
 					</li>
-					<li><a href="#">Тезаурус</a></li>
-					<li><a href="#">Контакты</a></li>
+					<li><a href="tezaurus.html">Тезаурус</a></li>
+					<li><a href="contact.html">Контакты</a></li>
 				</ul>
 			</div>
 			<!--/.navbar-collapse -->
@@ -210,21 +204,27 @@
 				<div class="container">
 					<h2 class="page-hdr">Растискивание</h2>
 					<h2 class="blue-txt sub-hdr">
-            РАСТИСКИВАНИЕ: ЧТО С НИМ ДЕЛАТЬ И НУЖНО ЛИ?
+            Растискивание или усиление тона  
         </h2>
-					<p class="content-main-txt text-center"> Для того,чтобы ответить на эти вопросы, разберемся, что такое растискивание, как его измеряют, как его величина влияет на тоновоспроизведение и как при необходимости его можно изменить. </p>
+					<p class="content-main-txt text-center"> Что такое растискивание и как его измерять?
+						<br> Для того, чтобы ответить на эти вопросы давайте разберемся, что такое растискивание, как его измеряют, как его величина влияет на тоновоспроизведение и как управлять растискиванием. </p>
 				</div>
 			</div>
 			<div class="rastisk-Z-section">
 				<div class="container">
-					<div class="content-main-txt white-txt"> <strong>Растискивание (Z) </strong>- это увеличение площади печатных элементов в процессе печати. Оно определяется как разница между относительными площадями печатного элемента на форме и красочного элемента на оттиске. Именно на тиражной формной пластине, а не на фотоформе или, тем более, в электронном документе. Величина растискивания определяется двумя видами факторов: </div>
+					<p class="main-txt white-txt"> Термин «растискивание» в настоящий момент находится «вне закона», это сленг. С первого января две тысячи одиннадцатого года вступил в действие НАЦИОНАЛЬНЫЙ СТАНДАРТ РОССИЙСКОЙ ФЕДЕРАЦИИ, ГОСТ Р ИСО 12647-1-2009: Технология полиграфии. КОНТРОЛЬ ПРОЦЕССА ИЗГОТОВЛЕНИЯ ЦИФРОВЫХ ФАЙЛОВ, РАСТРОВЫХ ЦВЕТОДЕЛЕНИЙ, ПРОБНЫХ И ТИРАЖНЫХ ОТТИСКОВ Часть 1. ПАРАМЕТРЫ И МЕТОДЫ ИЗМЕРЕНИЯ, в котором «Прежде известный термин "растискивание" не рекомендуется к употреблению» (пункт 3.45, Примечание 3). Взамен предложено использовать термин – усиление тона или по-ангельски tone value increase или сокращенно TVI. Но народ, невзирая, применял его, применяет и отказываться от растискивания не собирается. Уж больно удобное словечко – смысловое. Точно определяет суть процесса. В итого получилась революционная ситуация – низы не могут потому, что стандарта не читали, а у верхов не получается потому, что их низы тогда не поймут. Для решения или разрешения революционной ситуации еще в 2007 году было предложено развести эти два термина. </p>
+					<div class="hr"></div>
+					<div class="row">
+						<div class="col-md-8">
+							<p class="main-txt white-txt"> <strong>Растискивание (Z) </strong> - это увеличение площади печатных элементов в процессе печати. Определяется как разница между относительными площадями печатного элемента на форме и красочного элемента на оттиске. Не надо путать именно на тиражной формной пластине, а не на фотоформе или в электронном документе. </p>
+							<p class="main-txt white-txt"> <strong>Усиление тона  </strong> (tone value increase) - разность между значениями тона для оттиска и значениями тона на растровой фотоформе или в цифровом файле. </p>
+							<p class="main-txt white-txt"> Для того чтобы управлять надо понимать что и как влияет на то чем Вы собираетесь управлять. Поэтому давайте рассмотрим основные факторы влияющие на растискивание. Величина растискивания определяется двумя видами факторов: механическими и оптическими.</p>
+						</div>
+						<div class="col-md-4"> <img class="full-img" src="img/rastis/rastis_z-img.png"> </div>
+					</div>
 					<div class="white-container types-bg"></div>
 				</div>
 			</div>
-			<!--
-    <div class="book-bg-img">
-        <img src="img/r_book_bg.jpg">
-    </div>-->
 			<div class="white-container">
 				<div class="container">
 					<div class="row r1_types">
@@ -232,7 +232,7 @@
 							<div class="corner-txt content-main-txt"> <span class="dark-blue-txt">Механическое растискивание</span> - увеличение площади красочных элементов в результате механических воздействий на красочный слой. </div>
 						</div>
 						<div class="col-md-6">
-							<div class="corner-txt content-main-txt"> <span class="dark-blue-txt">Оптическое растискивание</span> - увеличение оптической плотности растровых полей в результате рассеивания света в материале основы.. </div>
+							<div class="corner-txt content-main-txt"> <span class="dark-blue-txt">Оптическое растискивание</span> - увеличение оптической плотности растровых полей в результате рассеивания света в материале основы. </div>
 						</div>
 					</div>
 					<div class="row">
@@ -242,24 +242,29 @@
 					</div>
 				</div>
 			</div>
+			<div class="container">
+				<div class="row ">
+					<div class="col-md-12 border"> <img src="img/rastis/den1.png"><img src="img/rastis/den2.png"><img src="img/rastis/den3.png"> </div>
+				</div>
+			</div>
 		</section>
 		<section class="rastisk-2">
 			<div class="container">
 				<div class="row">
 					<h2 class="sub-hdr blue-txt">
- 			Измерение растискивания основанно на измерении относительной площади печатного элемента на печатнойпластине (Sp) и на оттиске (Sr) и может осуществляться двумя способами.
+ 			Измерение растискивания основанно на измерении относительной площади печатного элемента на печатной пластине (Sp) и на оттиске (Sr) и может осуществляться двумя способами.
 		</h2> </div>
 			</div>
 			<div class="rastisk-2s1">
 				<div class="rastisk2-left">
 					<div class="container">
-						<div class="col-md-5 blue-bg">
+						<div class="col-md-5 col-sm-5">
 							<h2 class="sub-hdr white-txt">
 				  	Денситометрический способ
 				  </h2>
 							<p class="content-main-txt white-txt"> Денситометрический способ основан на измерении оптической плотности 100% монохромной плашки (Ds) и оптической плотности измеряемого поля (Dr). Относительная площадь печатного элемента рассчитывается по формуле Шеберстова-Муррея-Девиса: где n - коэффициент светорассеивания Юла-Нильсона, по умолчанию равняется 1. Растискивание рассчитывается по формуле: Zr = Sr - Sp. Денситометрический метод является основным при измерении растискивания. Для этого достаточно иметь денситометр, в котором расчет растискивания производится автоматически. Но денситометрический метод имеет ряд серьезных недостатков. </p>
 						</div>
-						<div class="col-md-7"> <img src="img/rastis/den1.png"><img src="img/rastis/den2.png"><img src="img/rastis/den3.png"> </div>
+						<div class="col-md-7 col-sm-7"> <img src="img/rastis/den-function.png"> </div>
 					</div>
 				</div>
 			</div>
@@ -300,6 +305,57 @@
 				</div>
 			</div>
 			<!--/.rastisk-2s2-->
+			<div class="rastisk-2s2_1">
+				<div class="container">
+					<div class="col-md-5 col-sm-5">
+						<h2 class="sub-hdr white-txt">
+						Колориметрический способ
+					</h2>
+						<p class="main-txt white-txt"> Для измерения координат цвета , применяют колориметр с геометрией 45/0 или 0/45, с использованием стандартных условий наблюдения по МКО 1931 2° и источника света D50. Эти трехстимульные значения измеряют для незапечатанного материала, выделенного растрового участка и ближайшей к нему плашки. </p>
+					</div>
+					<div class="col-md-7 col-sm-7">
+						<h5>Значения в процентах вычисляют по формулам <span class="blue-txt">(1), (2), (3)</span>:</h5>
+						<div class="col-sm-5">
+							<p class="maint-txt uppercase"> для голубого </p>
+							<p class="main-txt uppercase"> <span class="blue-txt">A = 100 ( X0 - XP ) / ( X0 - XП ) </span> (1) </p>
+							<p class="maint-txt uppercase"> для пурпурного и черного </p>
+							<p class="main-txt uppercase"> <span class="blue-txt">A = 100 ( Y0 - YP ) / ( Y0 - YП ) </span> (2) </p>
+							<p class="maint-txt uppercase"> для желтого </p>
+							<p class="main-txt uppercase"> <span class="blue-txt">A = 100 ( Z0 - ZP ) / ( Z0 - ZП )</span> (3) </p>
+						</div>
+						<div class="col-sm-7">
+							<p class="maint-txt uppercase"> где: </p>
+							<table>
+								<tr>
+									<td> <span class="main-txt blue-txt">X<sub>0</sub>,
+										Y<sub>0</sub>, Z<sub>0</sub></span> </td>
+									<td>
+										<p class="main-txt"> координаты цвета незапечатанного материала </p>
+									</td>
+								</tr>
+								<tr>
+									<td> <span class="main-txt blue-txt">X<sub>p</sub>,
+										Y<sub>p</sub>, Z<sub>p</sub></span> </td>
+									<td>
+										<p class="main-txt"> координаты цвета растрового участка </p>
+									</td>
+								</tr>
+								<tr>
+									<td> <span class="main-txt blue-txt">X<sub>n</sub>,
+										Y<sub>n</sub>, Z<sub>n</sub></span> </td>
+									<td>
+										<p class="main-txt"> координаты цвета плашки </p>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<p class="main-txt"> Для обеспечения достаточной точности считывающая апертура прибора должна иметь диаметр не менее 15 или по крайней мере 10 периодов растра. Это требование также применяют по аналогии к считывающим апертурам некруглой формы. Для непериодических растров апертура должна быть даже больше, чем требуемая для периодических растров, обычно используемых с оцениваемым запечатываемым материалом. </p>
+				<p class="main-txt"> Примечание - Результаты могут быть на 2% ниже тех, которые получены денситометрическим методом, , особенно для голубого цвета. </p>
+			</div>
 			<div class="rastisk-2s3">
 				<div class="container">
 					<div class="row">
@@ -415,7 +471,7 @@
 					<div class="row">
 						<div class="col-md-6">
 							<p class="content-main-txt"> В производственных условиях кривые растискивания не строят. Измеряют растискивание в двух опорных точках: 40% или 50% и 75% или 80%. Растискивание 50% растрового элемента нормируется не только в типографии, есть госстандарт ОСТ 29.66-90 (еще с советских времен) и современный европейский ISO 12647–2. В стандартах даны рекомендованные зональные значения растискивания и величины отклонения от рекомендованного значения 50% растровых точек для различных типов бумаг и печатных машин. Заказчик вправе требовать от типографии выполнения требований стандарта. В европейском стандарте кроме рекомендованных величин растискивания введено понятие «разброса полутона», или «растискивание в полутонах». Это разница между максимальной и минимальной величинами отклонения растискивания красок от рекомендованного: </p>
-							<p class="formulas"> <span class="blue-txt">|</span> S=max[(Ac-Aco) <span class="blue-txt">|</span> (Am-Amo) <span class="blue-txt">|</span> (Ay-Ayo)] – min[[(Ac-Aco) <span class="blue-txt">|</span> (Am-Amo) <span class="blue-txt">|</span> (Ay-Ayo)] </p>
+							<p class="formulas"> <span class="dark-blue-txt">|</span> S=max[(Ac-Aco) <span class="dark-blue-txt">|</span> (Am-Amo) <span class="dark-blue-txt">|</span> (Ay-Ayo)] – min[[(Ac-Aco) <span class="dark-blue-txt">|</span> (Am-Amo) <span class="dark-blue-txt">|</span> (Ay-Ayo)] </p>
 						</div>
 						<div class="col-md-6">
 							<p class="r4-right-txt"> <span class="blue-txt">Ac</span> - измеренное значение растискивания голубой краски 50% красочного элемента; </p>
@@ -455,11 +511,9 @@
 					<p class="content-main-txt"> Простейший способ установки растискивания показан на <span class="blue-txt">рис. 1</span>. Это стандартное растискивание для «Евростандарта». Оно в данном случае устанавливается одной цифрой. Но следует иметь в виду, что здесь устанавливается не растискивание как таковое, а параметр Dot Gain. Они хоть и похожи, но разница между ними есть. Впрочем, если здесь поставить и собственно параметры растискивания, то большой ошибки не будет, так как фотовывод стараются максимально линеаризовать, хотя это и не всегда возможно. </p>
 					<p class="content-main-txt"> Впрочем, такой подход может оказаться слишком упрощенным. Растискивание может отличаться в печатных секциях, более того, кривая растискивания может иметь более сложную форму, чем при использовании только одного числа. В этом случае программа дает возможность вместо числа установить компенсацию по специальной кривой. Она получается при установке параметров в нескольких измеренных областях (в нашем случае это 10-, 40- и 80-процентные поля серой шкалы). </p>
 				</div>
-				<div class="underline"> <img src="img/rastis/r1_bottom_line.png"> </div>
 				<div class="compensation"> <img class="pull-right" src="img/rastis/compensation2.jpg">
 					<p class="content-main-txt"> Необходимо отметить, что в случае использования числового значения растискивания в программе Adobe Photoshop, оно автоматически считается как растискивание на поле 50% (так принято в Америке, откуда родом Photoshop). В Европе обычно используется замер растискивания по двум полям (например, 40, 80 или 45, 75). Так что выясняя значение растискивания в типографии, и получив в ответ одну цифру (у нас 20%), неплохо бы поинтересоваться, по какому полю оно измерено. Если по 50-процентному, то его можно смело ставить в качестве числового значения, а если по какому-либо другому, то придется пользоваться кривой. Кстати, любопытные могут на досуге попробовать «поиграть» со значением растискивания в поле на <span class="blue-txt">рис.2.</span> И посмотреть, что будет происходить с изображением. </p>
 				</div>
-				<div class="underline"> <img src="img/rastis/r1_bottom_line.png"> </div>
 				<p class="content-main-txt"> Дело в том, что диапазон растискивания, определенный стандартом, довольно большой, к тому же, отклонения от рекомендуемых значений для различных цветов CMY могут быть разноными. В результате возможно появление серьезного цветового дисбаланса. Например, если величина растискивания одной из красок увеличится на максимально допустимую стандартом величину, и величина растискивания остальных тоже увеличиться, то в целом цветовой баланс изображения не изменится. Произойдет только небольшая потеря градаций в тенях. Но если отклонения одной или двух красок будут разнонаправлеными даже в пределах норм, то появятся заметные цветовые отклонения, которые в ряде случаев не удастся компенсировать и изменениями толщины красочного слоя. </p>
 				<p class="content-main-txt"> Заказчик может требовать от типографии выполнения требований стандарта. Однако, в силу физической изношенности оборудования многие типографии не в состоянии удовлетворить требованиям стандарта по растискиванию, даже при соблюдении всех технологических норм. </p>
 			</div>
@@ -533,7 +587,7 @@
 								<li><a href="content.html">Оборудование</a></li>
 								<li><a href="content.html">Возможности и технологии</a></li>
 								<li><a href="content.html">История развития</a></li>
-								<li><a href="content.html">Склад и логистика</a></li>								
+								<li><a href="content.html">Склад и логистика</a></li>
 								<li><a href="content.html">Ремонт оборудования</a></li>
 							</ul>
 						</div>
