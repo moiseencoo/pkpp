@@ -939,6 +939,23 @@ ul.odd:before {
 	margin-top: -38px;
 	margin-left: 10px;
 	display: block;
+	line-height: 24px;
+	height: 50px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.news .sky-carousel .sc-content-wrapper p span {
+	line-height: 20px;
+	height: 60px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
 }
 
 
@@ -3228,8 +3245,6 @@ h2.main-txt {
 	margin-top: 10px;
 	margin-bottom: 30px;
 }
-
-
 
 
 /****************************************************

@@ -587,10 +587,6 @@
  	.rule .content-main-txt {
  		margin-bottom: 45px;
  	}
- 	.mistakes-txt {
- 		margin: 0;
- 		margin-bottom: 20px;
- 	}
  	.underline {
  		margin-top: -10px;
  	}
@@ -781,10 +777,17 @@
  	.r4-grey-area {
  		background: #f7f7f7 url(../img/grey-bg.png) repeat;
  	}
+ 	.mistakes-txt {
+ 		margin-top: 45px;
+ 	}
  }
  /* Small Devices, Tablets */
  
  @media only screen and (max-width: 991px) {
+ 	.mistakes-txt {
+ 		margin: 0;
+ 		margin-bottom: 20px;
+ 	}
  	.types-bg {
  		width: 750px;
  	}
