@@ -244,6 +244,15 @@
  		line-height: 30px;
  		padding-top: 70px;
  	}
+ 	.polos9 .col-md-4 .bold20 {
+ 		top: 18%;
+ 	}
+ 	.tez-block-text p {
+ 		height: 83px;
+ 	}
+ 	.tez-block-text {
+ 		padding: 30px;
+ 	}
  }
  /* Medium Devices, Desktops */
  
@@ -893,8 +902,8 @@
  	.tez-border-corner {
  		margin-bottom: 15px;
  	}
- 	.rastisk-2s2_1,
- 	.rastisk-2s1 {
+ 	.rastisk-2s1,
+ 	.rastisk-2s2_1 {
  		background: #0093e3;
  	}
  	.rastisk-2s2_1 .col-md-7 .col-sm-7 {
@@ -910,6 +919,10 @@
  	.fantom5 .blue-border-block .col-md-6 .fantom5-border-blue-block::before,
  	.fantom5 .blue-border-block .col-md-6:last-child .fantom5-border-blue-block::before {
  		left: -100px;
+ 	}
+ 	.rastisk-Z-section .main-txt {
+ 		padding-left: 15px;
+ 		padding-right: 15px;
  	}
  }
  
@@ -1195,7 +1208,7 @@
  	.polos1-grey-area .col-sm-6 img {
  		position: relative;
  		display: block;
- 		margin: 15px auto;
+ 		margin: 15px auto 5px auto;
  		top: 0;
  		left: 0;
  		right: 0;
@@ -1219,10 +1232,6 @@
  	.quote {
  		margin-left: 50px;
  	}
- 	.main-txt {
- 		padding-left: 15px;
- 		padding-right: 15px;
- 	}
  	.rastisk2-left .col-md-7 img {
  		top: 0;
  		left: 0;
@@ -1245,11 +1254,74 @@
  	.fantom6 .border-img {
  		width: 100%;
  	}
- 	.fantom5 .contact-sub-hdr {
- 		padding-left: 15px;
- 	}
  	.fantom4-block p {
  		padding-top: 20%;
+ 	}
+ 	.polos4 .col-md-7 {
+ 		padding: 30px 0;
+ 	}
+ 	.dictionary {
+ 		padding: 30px 20px;
+ 	}
+ 	.polos1-border {
+ 		padding: 40px 0 10px 0;
+ 	}
+ 	.polos2 {
+ 		padding: 20px 0 30px 0;
+ 	}
+ 	.polos3 {
+ 		padding-top: 20px;
+ 	}
+ 	.polos1 .page-hdr {
+ 		margin-bottom: 30px;
+ 	}
+ 	.polos4 {
+ 		margin-bottom: 30px;
+ 	}
+ 	.polos5 {
+ 		padding: 10px 0 30px 0;
+ 	}
+ 	.polos5 .container > .row > .main-txt {
+ 		padding-left: 15px;
+ 		padding-right: 15px;
+ 	}
+ 	.polos7-hdr .main-txt:before,
+ 	.polos7-hdr .main-txt:after {
+ 		display: none;
+ 	}
+ 	.polos9 {
+ 		padding: 30px 0 40px 0;
+ 	}
+ 	.polos6 .bold20 {
+ 		margin-top: 30px;
+ 		margin-bottom: 20px;
+ 	}
+ 	.polos7-hdr .main-txt {
+ 		margin-bottom: 40px;
+ 	}
+ 	.polos6 {
+ 		padding-bottom: 30px;
+ 	}
+ 	.polos7-blue-block {
+ 		margin: 30px 0;
+ 	}
+ 	.polos8 {
+ 		margin-top: 30px;
+ 	}
+ 	.polos8-block .main-txt {
+ 		padding-bottom: 20px;
+ 	}
+ 	.fantom4 .col-md-7 {
+ 		margin-bottom: 10px;
+ 	}
+ 	.fantom2 {
+ 		padding-bottom: 20px;
+ 	}
+ 	.fantom1-type {
+ 		min-height: auto;
+ 	}
+ 	.fantom3 .col-md-5 {
+ 		padding-top: 15px;
  	}
  }
  
@@ -1542,6 +1614,19 @@
  	}
  	.polos9 .col-md-4 img {
  		width: 100%;
+ 	}
+ 	.polos3 table td,
+ 	.polos2 table td {
+ 		padding-right: 5px;
+ 	}
+ 	.polos3-bottom-blue-block {
+ 		padding-top: 30px;
+ 	}
+ 	.polos6 .col-md-8 {
+ 		padding: 15px;
+ 	}
+ 	.polos9 .col-md-4 .bold20 {
+ 		top: 20%;
  	}
  }
  /* Custom, iPhone Retina */

@@ -287,8 +287,8 @@ header .langs > a.active {
 
 .dropdown-menu li>a.pdf-download {
 	position: absolute;
-	top: 184px;
-	right: 15px;
+	top: 150px;
+	right: 0px;
 	color: #2d3643;
 	font-size: 15px;
 	font-family: 'RobotoCondensed-Bold';
@@ -1067,6 +1067,13 @@ ul.odd:before {
 
 .v-gallery-txt {
 	font-size: 16px;
+	line-height: 20px;
+	height: 120px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 6;
+	-webkit-box-orient: vertical;
 }
 
 .v-gallery-footer {
@@ -2691,15 +2698,20 @@ h5 {
 	font-weight: bold;
 }
 
+.dictionary .main-txt {
+	padding-left: 10px;
+	position: relative;
+}
 
-/*.dictionary .main-txt:before {
+.dictionary .main-txt:before {
 	content: '';
-	border-left: 1px solid #fff;
-	height: 15px;
-	top: 0;
+	background: url(../img/icons/text-accent-white.png) no-repeat;
+	width: 2px;
+	height: 31px;
+	position: absolute;
+	top: 4px;
 	left: 0;
-	padding: 10px;
-}*/
+}
 
 .dictionary .bold20 {
 	text-align: left;
@@ -2752,7 +2764,7 @@ h5 {
 }
 
 .polos6 .col-md-8 {
-	padding: 20px 40px;
+	padding: 21px 40px;
 	border: 1px solid #e1e1e1;
 }
 
@@ -3092,7 +3104,7 @@ h2.main-txt {
 
 .fantom4-block p {
 	text-align: center;
-	line-height: 217px;
+	line-height: 200px;
 	margin-right: 15px;
 }
 
