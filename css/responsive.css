@@ -363,8 +363,16 @@
  		margin-left: -5px;
  		display: inline-block;
  	}
+ 	.dropdown-menu li>a.pdf-download:nth-child(3) {
+ 		top: 0;
+ 		right: 0;
+ 		margin-left: 5px;
+ 	}
  	.dropdown-menu li>a.pdf-download p {
  		display: block;
+ 	}
+ 	.dropdown-menu li>a.pdf-download:hover {
+ 		color: #337ab7;
  	}
  }
  
@@ -873,6 +881,23 @@
  	.fantom4-block p {
  		padding-top: 30px;
  	}
+ 	.spec-tabs .col-md-4 {
+ 		height: 286px;
+ 	}
+ 	.ul-spec > li {
+ 		margin-top: 15px;
+ 	}
+ 	.ul-spec > li,
+ 	.ul-spec > li > a {
+ 		font-size: 22px;
+ 	}
+ 	.ul-spec > li > a {
+ 		padding: 15px;
+ 	}
+ 	.ul-spec > li > a:before {
+ 		width: 40px;
+ 		height: 40px;
+ 	}
  }
  
  @media only screen and (max-width: 768px) {
@@ -1323,6 +1348,41 @@
  	.fantom3 .col-md-5 {
  		padding-top: 15px;
  	}
+ 	.spec-tabs .col-md-12 img,
+ 	.spec-tabs .col-md-8 img {
+ 		width: 90%;
+ 	}
+ 	.spec-tabs .col-md-12,
+ 	.spec-tabs .col-md-8 {
+ 		height: auto;
+ 	}
+ 	.spec-tabs h2 {
+ 		font-size: 35px;
+ 		position: relative;
+ 		text-align: center;
+ 		padding: 30px 0;
+ 		margin: 0;
+ 		bottom: 0;
+ 		right: 0;
+ 	}
+ 	.spec-tabs h2:after {
+ 		display: none;
+ 	}
+ 	.ul-spec > li {
+ 		margin-top: 5px;
+ 	}
+ 	.ul-spec > li,
+ 	.ul-spec > li > a {
+ 		font-size: 20px;
+ 	}
+ 	.ul-spec > li > a {
+ 		padding: 0;
+ 		margin-left: 0;
+ 		margin-right: 25px;
+ 	}
+ 	.ul-spec > li > a:before {
+ 		display: none;
+ 	}
  }
  
  @media only screen and (max-width: 580px) {
@@ -1456,6 +1516,13 @@
  	}
  	.fantom2 {
  		background: #f7f7f7;
+ 	}
+ 	.spec-tabs .row {
+ 		margin-left: 0;
+ 		margin-right: 0;
+ 	}
+ 	.ul-spec > li > a {
+ 		margin-right: 15px;
  	}
  }
  /* Extra Small Devices, Phones */
@@ -1627,6 +1694,16 @@
  	}
  	.polos9 .col-md-4 .bold20 {
  		top: 20%;
+ 	}
+ 	.dropdown-menu li>a.pdf-download {
+ 		display: block;
+ 		margin-left: 15px;
+ 	}
+ 	.dropdown-menu li>a.pdf-download:nth-child(3) {
+ 		margin-left: 15px;
+ 	}
+ 	.spec-tabs h2 {
+ 		font-size: 30px;
  	}
  }
  /* Custom, iPhone Retina */

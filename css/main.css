@@ -275,14 +275,9 @@ header .langs > a.active {
 	position: relative;
 }
 
-
-/*.dropdown-menu .container:first-child li:first-child {
-	display: none;
-}*/
-
 .dropdown-menu li>a {
 	text-decoration: none;
-	padding: 0 10px;
+	/*	padding: 0 10px;*/
 }
 
 .dropdown-menu li>a.pdf-download {
@@ -294,6 +289,11 @@ header .langs > a.active {
 	font-family: 'RobotoCondensed-Bold';
 	text-decoration: none;
 	text-transform: uppercase;
+}
+
+.dropdown-menu li>a.pdf-download:nth-child(3) {
+	right: 35px;
+	top: 140px;
 }
 
 .dropdown-menu li>a.pdf-download p {
@@ -3260,6 +3260,119 @@ h2.main-txt {
 
 
 /****************************************************
+**************SPEC BEGINS ********************
+****************************************************/
+
+.spec-main .page-hdr {
+	margin-top: 40px;
+}
+
+.noodle46 {
+	font-family: BigNoodle;
+	font-size: 46px;
+	text-transform: uppercase;
+}
+
+.noodle44 {
+	font-family: BigNoodle;
+	font-size: 44px;
+	text-transform: uppercase;
+}
+
+.ul-spec > li,
+.ul-spec > li > a {
+	font-family: BigNoodle;
+	font-size: 25px;
+	color: #0b4596;
+	text-decoration: none;
+	text-transform: uppercase;
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+.ul-spec > li {
+	margin-top: 35px;
+}
+
+.ul-spec > li > a {
+	padding: 20px;
+	margin-left: 20px;
+}
+
+.ul-spec > li > a:hover,
+.ul-spec > li > a:focus {
+	color: #0093e3;
+}
+
+.ul-spec > li > a:before {
+	content: '';
+	background: url(../img/icons/corner-txt-blue.png) no-repeat;
+	width: 54px;
+	height: 54px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.spec-tabs .col-md-12,
+.spec-tabs .col-md-8 {
+	height: 600px;
+	background: #dedede url(../img/special/left-tab-bg.png) center bottom repeat-x;
+	border-top: 1px solid #fff;
+	padding-left: 50px;
+}
+
+.spec-tabs .col-md-4 {
+	height: 314px;
+	border-left: 1px solid #fff;
+	border-top: 1px solid #fff;
+	background: #dedede;
+}
+
+.spec-tabs .tab-gradient {
+	background: #dedede url(../img/special/right-tab-bg.jpg) center bottom;
+	height: 286px;
+}
+
+.spec-tabs .col-md-12 img,
+.spec-tabs .col-md-8 img {
+	display: block;
+	margin: 50px auto 0 auto;
+}
+
+.margin20 {
+	margin-top: 20px !important;
+}
+
+.spec-tabs .col-md-4 img {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	display: block;
+	margin: auto;
+}
+
+.spec-tabs h2 {
+	position: absolute;
+	bottom: 30px;
+	right: 80px;
+}
+
+.spec-tabs h2:after {
+	background-color: #0093e3;
+	content: "";
+	display: inline-block;
+	height: 2px;
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
+	left: 20px;
+	margin-right: -50%;
+}
+
+
+/****************************************************
 **************FOOTER BEGINS ********************
 ****************************************************/
 
@@ -3295,6 +3408,7 @@ footer {
 	padding-left: 0;
 }
 
+.footer-ul > li,
 .footer-ul > li > a {
 	color: #f2eeee;
 	font-size: 15px;
