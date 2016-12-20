@@ -1355,6 +1355,8 @@
  	.spec-tabs .col-md-12,
  	.spec-tabs .col-md-8 {
  		height: auto;
+ 		padding-left: 15px;
+ 		background-size: 20% 50%;
  	}
  	.spec-tabs h2 {
  		font-size: 35px;
@@ -1524,6 +1526,13 @@
  	.ul-spec > li > a {
  		margin-right: 15px;
  	}
+ 	/*	.spec-tabs .col-md-4 {
+		height: 230px;
+	}
+	
+	.spec-tabs .col-md-4 img {
+		width: 40%;
+	}*/
  }
  /* Extra Small Devices, Phones */
  
